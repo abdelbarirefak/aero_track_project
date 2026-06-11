@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+
+# Fabric wallet (contains private keys — never commit)
+fabric/application/wallet/
+
+# Fabric network generated crypto material
+fabric/network/crypto-config/
+fabric/network/channel-artifacts/
+fabric/network/*.block
+fabric/network/*.tx
+
+# Compiled artifacts
+*.class
+*.o
+*.a
+
+# Go build outputs
+fabric/chaincode/vendor/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# LaTeX build artifacts
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/*.fls
+docs/*.fdb_latexmk
+docs/*.synctex.gz
